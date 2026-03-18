@@ -1,5 +1,33 @@
-# Vue 3 + Vite
+# 🛒 Gerenciador de Produtos - VueJS
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+CRUD completo de produtos desenvolvido com Vue 3.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## 🚀 Funcionalidades
+
+- ✅ Adicionar produtos (nome, preço, estoque)
+- ✅ Listar todos os produtos
+- ✅ Deletar produtos
+- ✅ Validação de formulário
+- ✅ Contador de total de produtos
+
+## 🛠️ Tecnologias
+
+- Vue 3 (Composition API com `<script setup>`)
+- Vite
+- JavaScript
+
+## 📦 Como rodar
+
+\`\`\`bash
+npm install
+npm run dev
+\`\`\`
+
+## 📚 Conceitos Vue aplicados
+
+- ref() - estado reativo
+- computed() - propriedades computadas
+- v-model - two-way binding
+- v-for - renderização de listas
+- @click - manipulação de eventos
+- Validação de formulários
